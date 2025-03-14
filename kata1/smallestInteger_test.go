@@ -18,4 +18,5 @@ func TestSmallestIntegerFinder(t *testing.T) {
 			t.Errorf("got %d want %d", result, test.expected)
 		}
 	}
+
 }
