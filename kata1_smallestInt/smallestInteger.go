@@ -1,4 +1,4 @@
-package kata1
+package kata1_smallestInt
 
 func SmallestIntegerFinder(numbers []int) int {
 	smallest := numbers[0]

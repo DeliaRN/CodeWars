@@ -1,4 +1,4 @@
-package kata6
+package kata6_stringTrim
 
 import "strings"
 

@@ -1,4 +1,4 @@
-package kata8
+package kata8_additiveInversion
 
 /*
 Given a set of numbers, return the additive inverse of each.

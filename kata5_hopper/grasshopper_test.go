@@ -1,4 +1,4 @@
-package kata5
+package kata5_hopper
 
 import "testing"
 

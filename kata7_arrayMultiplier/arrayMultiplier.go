@@ -1,4 +1,4 @@
-package kata7
+package kata7_arrayMultiplier
 
 func ArrayMultiplier(arr []int) int {
 	result := 1
