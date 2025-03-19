@@ -1,4 +1,4 @@
-package kata1_smallestInt
+package kata01_smallestInt
 
 import "testing"
 

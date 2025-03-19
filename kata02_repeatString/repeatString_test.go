@@ -1,4 +1,4 @@
-package kata2_repeatString
+package kata02_repeatString
 
 import "testing"
 

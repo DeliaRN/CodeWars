@@ -1,4 +1,4 @@
-package kata4_descInts
+package kata04_descInts
 
 import (
 	"reflect"

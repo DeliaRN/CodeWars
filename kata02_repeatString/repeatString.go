@@ -1,4 +1,4 @@
-package kata2_repeatString
+package kata02_repeatString
 
 func RepeatString(n int, s string) string {
 	result := ""

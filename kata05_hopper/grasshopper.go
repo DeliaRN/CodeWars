@@ -1,4 +1,4 @@
-package kata5_hopper
+package kata05_hopper
 
 /*
 Write a program that finds the summation of every number from 1 to num.

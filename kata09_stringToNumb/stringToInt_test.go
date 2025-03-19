@@ -1,4 +1,4 @@
-package kata9_stringtonumb
+package kata09_stringtonumb
 
 import (
 	"reflect"
