@@ -27,3 +27,17 @@ func newGame(playerOne, playerTwo string) string {
 	}
 
 }
+
+//ALTERNATIVE WAY USING MAP:
+
+var m = map[string]string{"rock": "paper", "paper": "scissors", "scissors": "rock"}
+
+func RPSGame(a, b string) string {
+	if a == b {
+		return "Draw!"
+	}
+	if m[a] == b {
+		return "Player 2 wins!"
+	}
+	return "Player 1 wins!"
+}

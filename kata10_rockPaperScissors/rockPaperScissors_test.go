@@ -33,4 +33,11 @@ func TestNewGame(t *testing.T) {
 			t.Errorf("The game %q vs %q should result in %q, but got %q", test.playerOne, test.playerTwo, test.expected, result)
 		}
 	}
+
+	for _, test := range tests {
+		result := RPSGame(test.playerOne, test.playerTwo)
+		if result != test.expected {
+			t.Errorf("The game %q vs %q should result in %q, but got %q", test.playerOne, test.playerTwo, test.expected, result)
+		}
+	}
 }
