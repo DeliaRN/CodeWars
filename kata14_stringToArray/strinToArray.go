@@ -11,7 +11,6 @@ Examples (Input ==> Output):
 import "strings"
 
 func StringToArray(str string) []string {
-	var result []string
-	result = strings.Split(str, " ")
+	var result = strings.Split(str, " ")
 	return result
 }
