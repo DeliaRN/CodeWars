@@ -13,6 +13,7 @@ func TestScore(t *testing.T) {
 		{[5]int{2, 4, 4, 5, 4}, 450},
 		{[5]int{1, 1, 1, 5, 1}, 1150},
 		{[5]int{2, 3, 4, 6, 2}, 0},
+		{[5]int{0, 0, 0, 0, 0}, -1},
 	}
 
 	for _, test := range tests {

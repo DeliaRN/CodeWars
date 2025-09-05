@@ -2,6 +2,12 @@ package kata12_greedisgood
 
 func Score(dice [5]int) int {
 	score := 0
+	//if there is any 0 in the dice, return -1
+	for _, die := range dice {
+		if die == 0 {
+			return -1
+		}
+	}
 
 	counts := make(map[int]int)
 	for _, die := range dice {
